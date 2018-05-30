@@ -18,6 +18,7 @@ public class RazaHumana implements AbstractFactory{
         
         switch (type){
             case "Ejercito":
+                return new Ejercito();
                     
         }
         return null;

@@ -3,19 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Humanos;
+package Tropas;
 
 /**
  *
  * @author Fernando Martínez
  */
-public class Base implements Humano{
-    private int hp;
+public class Vehiculo implements Tropa{
 
     @Override
-    public void Humano() 
-    {
-        hp = 200;
+    public void Tropa(String raza, String nombre, int hp, int damage, int costo) {
+        
     }
     
 }

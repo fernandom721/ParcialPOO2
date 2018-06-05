@@ -3,17 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package starwars;
-
+package Razas;
 
 /**
  *
  * @author Fernando Martínez
  */
-public class FactoryProducer {
-    public static AbstractFactory getFactory(String type){
-        
-        return null;
-        
-    }
+public interface Raza {
+    void Raza();
 }

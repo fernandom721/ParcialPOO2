@@ -3,20 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Humanos;
+package Edificios;
 
 /**
  *
  * @author Fernando Martínez
  */
-public class Tanque implements Humano{
-    private int hp, damage;
-    
+public class RecolectorMaterial2 implements Edificio{
+
     @Override
-    public void Humano() 
-    {
-        hp = 50;
-        damage = 20;
+    public void Edificio(String raza, String nombre, int hp, int damage, int costo, String tipoRecurso, int recolección) {
+        
     }
     
 }

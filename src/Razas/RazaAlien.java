@@ -3,20 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Humanos;
+package Razas;
 
 /**
  *
  * @author Fernando Martínez
  */
-public class Ejercito implements Humano{
-    private int hp, damage, costo;
-    
+public class RazaAlien implements Raza{
+    private String raza;
     @Override
-    public void Humano() {
-        hp = 20;
-        damage = 10;
-        costo = 1000;
+    public void Raza() {
+        raza = "Alien";
     }
     
 }

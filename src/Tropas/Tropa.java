@@ -3,20 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Humanos;
+package Tropas;
 
 /**
  *
  * @author Fernando Martínez
  */
-public class AirForce implements Humano{
-    private int hp, damage, costo;
-
-    @Override
-    public void Humano() {
-        hp = 25;
-        damage = 15;
-    }
-    
-    
+public interface Tropa {
+    void Tropa(String raza, String nombre, int hp, int damage, int costo);
 }

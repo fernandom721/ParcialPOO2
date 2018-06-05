@@ -3,13 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Mutantes;
+package Tropas;
 
 /**
  *
  * @author Fernando Martínez
  */
-public interface Mutante {
-    void Mutante();
+public class Tropa1 implements Tropa{
+
+    @Override
+    public void Tropa(String raza, String nombre, int hp, int damage, int costo) {
+        
+    }
     
 }

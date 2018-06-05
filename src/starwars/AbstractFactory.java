@@ -4,14 +4,17 @@
  * and open the template in the editor.
  */
 package starwars;
-import Humanos.Humano;
+
+import Edificios.Edificio;
+import Razas.Raza;
+import Tropas.Tropa;
 
 /**
  *
  * @author Fernando Martínez
  */
 public interface AbstractFactory {
-    
-    Humano getCrear(String type);
-    
+    Raza createRaza(String type);
+    Tropa createTropa(String type);
+    Edificio createEdificio (String type);
 }

@@ -3,13 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Aliens;
+package Edificios;
 
 /**
  *
  * @author Fernando Martínez
  */
-public interface Alien {
-    void Alien();
+public class RecolectorMaterial1 implements Edificio{
+
+    @Override
+    public void Edificio(String raza, String nombre, int hp, int damage, int costo, String tipoRecurso, int recolección) {
+        
+    }
     
 }

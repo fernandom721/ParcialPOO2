@@ -14,6 +14,7 @@ public class RazaMutante implements Raza{
     @Override
     public void Raza() {
         raza="Mutante";
+        System.out.println("Tu Raza es Mutante");
     }
     
 }

@@ -14,6 +14,7 @@ public class RazaRobot implements Raza{
     @Override
     public void Raza() {
         raza="Robot";
+        System.out.println("Tu Raza es Robot");
     }
     
 }

@@ -5,9 +5,7 @@
  */
 package starwars;
 
-import Edificios.Edificio;
 import Razas.Raza;
-import Tropas.Tropa;
 
 /**
  *
@@ -15,6 +13,4 @@ import Tropas.Tropa;
  */
 public interface AbstractFactory {
     Raza createRaza(String type);
-    Tropa createTropa(String type);
-    Edificio createEdificio (String type);
 }

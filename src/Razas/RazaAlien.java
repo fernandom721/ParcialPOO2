@@ -14,6 +14,7 @@ public class RazaAlien implements Raza{
     @Override
     public void Raza() {
         raza = "Alien";
+        System.out.println("Tu Raza es Alien");
     }
     
 }

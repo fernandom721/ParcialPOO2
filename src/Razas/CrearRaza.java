@@ -5,8 +5,6 @@
  */
 package Razas;
 
-import Edificios.Edificio;
-import Tropas.Tropa;
 import starwars.AbstractFactory;
 
 /**
@@ -30,14 +28,5 @@ public class CrearRaza implements AbstractFactory{
         return null;
     }
 
-    @Override
-    public Tropa createTropa(String type) {
-        return null;
-    }
-
-    @Override
-    public Edificio createEdificio(String type) {
-        return null;
-    }
     
 }

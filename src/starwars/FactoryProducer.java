@@ -5,6 +5,11 @@
  */
 package starwars;
 
+import Razas.CrearRaza;
+
+
+
+
 
 /**
  *
@@ -12,7 +17,10 @@ package starwars;
  */
 public class FactoryProducer {
     public static AbstractFactory getFactory(String type){
-        
+        switch (type){
+            case "Raza":
+                return new CrearRaza();
+        }
         return null;
         
     }

@@ -3,17 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Edificios;
-
+package Menus;
+import starwars.StarWars;
 /**
  *
  * @author Fernando Martínez
  */
-public class RecolectorMaterial1 implements Edificio{
-
-    @Override
-    public void Edificio(String raza, String nombre, int hp, int damage, int costo, String tipoRecurso, int recolección) {
-        
-    }
+public class MenuRazas {
+    
     
 }

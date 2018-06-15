@@ -15,7 +15,18 @@ public class Tropas {
     private int costo_hierro, costo_cristales, costo_circuitos;
     
     public Tropas(){}
-
+    /**
+     * 
+     * @param raza Le asigna la raza a la cual pertenece
+     * @param nombre Le asigna el nombre al objeto
+     * @param hp Le asigna la por default al objeto
+     * @param damage Daño que causan los obejtos
+     * @param fasescrear Las fases necesarias para que se cree
+     * @param fasesataque La  fases necesarias para que ataque
+     * @param costo_hierro El costo del objeto en hierro
+     * @param costo_cristales El costo del objeto en cristales
+     * @param costo_circuitos El costo del objeto en circuitos
+     */
     public Tropas(String raza, String nombre, int hp, int damage, int fasescrear, int fasesataque, int costo_hierro, int costo_cristales, int costo_circuitos) {
         this.raza = raza;
         this.nombre = nombre;

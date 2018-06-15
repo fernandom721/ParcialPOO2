@@ -27,7 +27,10 @@ public class MenuFases {
     public static final String PURPLE_FILL = "\033[35m"; 
     
 
-    
+    /**
+     * Funcion donde se crean las Bases de los usuarios
+     * 
+     */
     public void MenuFases(){
         
         int flag=0;
@@ -52,8 +55,8 @@ public class MenuFases {
         //CAMPO DE PRUEBAS
         System.out.println("-------- Campo de prueba---------");
         
-        Edificios Basej1 = new Edificios(jugador1.getRaza(), "Base", 100, 10000, 5000, 3000,0);
-        Edificios Basej2 = new Edificios(jugador2.getRaza(), "Base", 100, 10000, 5000, 3000,0);
+        Edificios Basej1 = new Edificios(jugador1.getRaza(), "Base", 100, jugador1.getHierro()+3000, jugador1.getCostoCr()+1000, jugador1.getCircuitos()+1000,0);
+        Edificios Basej2 = new Edificios(jugador2.getRaza(), "Base", 100, jugador2.getHierro()+3000, jugador2.getCostoCr()+1000, jugador2.getCircuitos()+1000,0);
         Acciones base1 = new Acciones(jugador1, jugador2, Basej1, Basej2, Edificiosj1, TropasAtaque1, Edificiosj2, TropasAtaque2);
         Acciones base2 = new Acciones(jugador2, jugador1, Basej2, Basej1, Edificiosj2, TropasAtaque2, Edificiosj1, TropasAtaque1);
         

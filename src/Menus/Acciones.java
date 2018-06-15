@@ -22,6 +22,7 @@ import starwars.FactoryProducer;
  *
  * @author Fernando Martínez
  */
+
 public class Acciones {
     static AbstractFactory factory;
     public static final String ANSI_RESET = "\u001B[0m";
@@ -41,16 +42,17 @@ public class Acciones {
     
 
     /**
-     * 
-     * @param player1
-     * @param player2
-     * @param base1
-     * @param base2
-     * @param edificios1
-     * @param tropas1
-     * @param edificios2
-     * @param tropas2 
+     * La Funcion para la accion que escoge el usuario
+     * @param player1 Objeto con los valores de la raza seleccionada por el usuario @see MenuFases
+     * @param player2 Objeto con los valores de la raza seleccionada por el usuario @see MenuFases
+     * @param base1 Base con los parametros inciales del usuario @see MenuFases
+     * @param base2 Base con los parametros inciales del usuario @see MenuFases
+     * @param edificios1 Lista donde guardan los Edificios creados por el usuario @see MenuFases
+     * @param tropas1 Lista donde guardan las Tropas creadas por el usuario @see MenuFases
+     * @param edificios2 Lista donde guardan los Edificios creados por el usuario @see MenuFases
+     * @param tropas2 Lista donde guardan las Tropas creadas por el usuario @see MenuFases
      */
+
     public Acciones(Jugador player1,Jugador player2,Edificios base1, Edificios base2, ArrayList<Edificios>edificios1,ArrayList<Tropas>tropas1,ArrayList<Edificios>edificios2,ArrayList<Tropas>tropas2){
         this.jugador1=player1;
         this.jugador2=player2;

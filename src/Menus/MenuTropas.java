@@ -13,7 +13,9 @@ import java.util.Scanner;
 public class MenuTropas {
     public int opcion;
     Scanner input = new Scanner(System.in);
-
+/**
+ * Tipo de Tropas que puede crear el usuario
+ */
     public void MenuTropas(){
         System.out.println("¿Qúe Tipo de Tropa deseas Crear?");
         System.out.println("1) Tropas");

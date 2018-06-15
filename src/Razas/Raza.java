@@ -9,6 +9,9 @@ package Razas;
  *
  * @author Fernando Martínez
  */
+/**
+ * Valores que tiene la raza
+ */
 public interface Raza {
     String NombreRaza();
     int Vidadefault();

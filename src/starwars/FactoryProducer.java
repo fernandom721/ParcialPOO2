@@ -16,6 +16,9 @@ import Razas.CrearRaza;
  * @author Fernando Martínez
  */
 public class FactoryProducer {
+    /**
+     * Factory Producer de las razas
+     */
     public static AbstractFactory getFactory(String type){
         switch (type){
             case "Raza":

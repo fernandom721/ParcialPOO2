@@ -12,6 +12,9 @@ import java.util.Scanner;
 public class MenuEdificios {
     public int opcion;
     Scanner input = new Scanner(System.in);
+    /**
+     * Imprime las Opciones de Fabricacion de Edificios
+     */
     public void MenuEdificios(){
         System.out.println("----FABRICA DE EDIFICIOS----");
                     System.out.println("¿Qué Edificio desea Crear?");

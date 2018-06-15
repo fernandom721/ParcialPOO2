@@ -16,7 +16,10 @@ public class MenuPrincipal {
     int flag =0;
     Scanner input = new Scanner(System.in);
     Instrucciones a = new Instrucciones();
-    
+/**
+ * 
+ * Menu con las opciones que puede escoger el usuario antes de jugar
+ */
     public void MenuPrincipal() throws IOException{
         do{
             System.out.println("-------Fernando Martíne'z World (Deluxe Edition)---------");
@@ -32,7 +35,7 @@ public class MenuPrincipal {
                     inicio.MenuFases();
                     break;
                 case 2:
-                    a.muestraContenido("C:\\Users\\Fernando Martínez\\Documents\\NetBeansProjects\\ParcialPOO2\\Instrucciones.txt");
+                    a.muestraContenido("C:\\Users\\Fernando Martínez\\Documents\\NetBeansProjects\\ParcialPOO2\\src\\TextoIntrucciones\\Instrucciones.txt");
                     break;
                 case 3:
                     System.out.println("Gracias por Jugar :)");

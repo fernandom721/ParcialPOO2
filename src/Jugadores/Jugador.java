@@ -15,7 +15,20 @@ public class Jugador {
     private int hierro, cristales, circuitos;
     private int costo_Hierro, costoCristales, costoCircuitos;
     private int Fataque, FCreacion;
-
+    /**
+    * 
+    * @param raza Le asigna la raza a la cual pertenece
+    * @param damage Le asigna el nombre al objeto
+    * @param hp Le asigna la por default al objeto
+     * @param hierro La cantidad de Hierro por default que este entrega
+     * @param cristales La cantidad de Cristales por default que este entrega
+     * @param circuitos La cantidad de Circuitos por default que este entrega
+    * @param costoH El costo de el objeto en hierro
+    * @param costoCr El costo del objeto en cristales
+    * @param costoCi El costo del objeto en circuitos
+    * @param Fataque La  fases necesarias para que ataque
+    * @param Fdefensa Las fases necesarias para que se cree
+    */
     public Jugador(String raza, int hp, int damage, int hierro, int cristales, int circuitos, int costoH, int costoCr, int costoCi, int Fataque, int Fdefensa) {
         this.raza = raza;
         this.hp = hp;

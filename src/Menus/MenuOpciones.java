@@ -12,6 +12,9 @@ import java.util.Scanner;
 public class MenuOpciones {
     public int opcion;
     Scanner input = new Scanner(System.in);
+    /**
+     * Lista de las acciones que puede escoger el usuario
+     */
     public void MenuOpciones(){
         System.out.println("¿Qué Desea Hacer?");
         System.out.println("1) Crear Edificio");

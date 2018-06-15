@@ -15,7 +15,10 @@ import java.io.IOException;
  * @author Fernando Martínez
  */
 public class Instrucciones {
-
+/**
+ * 
+ * Funcion para leer el archivo txt con las instrucciones
+ */
     public void muestraContenido(String archivo) throws FileNotFoundException, IOException {
         String cadena;
         FileReader f = new FileReader(archivo);

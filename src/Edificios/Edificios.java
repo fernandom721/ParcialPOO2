@@ -6,7 +6,7 @@
 package Edificios;
 
 /**
- *
+ * 
  * @author Fernando Martínez
  */
 public class Edificios {
@@ -15,9 +15,21 @@ public class Edificios {
     private int hierro, cristales, circuitos;
     private int costo_hierro, costo_cristales, costo_circuitos;
     private int nivel;
-
+    /**
+     * Constructor Vacio
+     */
     public Edificios(){}
     // Constructor De Edificios
+    /**
+     * 
+     * @param raza Le asigna la raza a la cual pertenece
+     * @param nombre Le asigna el nombre al objeto
+     * @param hp Le asigna la por default al objeto
+     * @param hierro La cantidad de Hierro por default que este entrega
+     * @param cristales La cantidad de Cristales por default que este entrega
+     * @param circuitos La cantidad de Circuitos por default que este entrega
+     * @param nivel El nivel inicial de la Base / Las fases necesarias para la construccion del Edificios
+     */
     public Edificios(String raza, String nombre, int hp, int hierro, int cristales, int circuitos, int nivel) {
         this.raza = raza;
         this.nombre = nombre;
@@ -30,6 +42,19 @@ public class Edificios {
     
     
     //Construir Extractor de Recursos
+    /**
+     * 
+     * @param raza Le asigna la raza a la cual pertenece
+     * @param nombre Le asigna el nombre al objeto
+     * @param hp Le asigna la por default al objeto
+     * @param fases Las fases necesarias para la construccion del Edificios
+     * @param hierro La cantidad de Hierro por default que este entrega
+     * @param cristales La cantidad de Cristales por default que este entrega
+     * @param circuitos La cantidad de Circuitos por default que este entrega
+     * @param costo_hierro El costo del objeto en hierro
+     * @param costo_cristales El costo del objeto en cristales
+     * @param costo_circuitos El costo del objeto en circuitos
+     */
     public Edificios(String raza, String nombre, int hp, int fases, int hierro, int cristales, int circuitos, int costo_hierro, int costo_cristales, int costo_circuitos) {
         this.raza = raza;
         this.nombre = nombre;
@@ -42,19 +67,31 @@ public class Edificios {
         this.costo_cristales = costo_cristales;
         this.costo_circuitos = costo_circuitos;
     }
-
+/**
+ * 
+ * @return regresa el nivel de la base
+ */
     public int getNivel() {
         return nivel;
     }
-
+    /**
+     * 
+     * @param nivel 
+     */
     public void setNivel(int nivel) {
         this.nivel = nivel;
     }
-    
+    /**
+     * 
+     * @return retorna el costo del objeto en hierro
+     */
     public int getCosto_hierro() {
         return costo_hierro;
     }
-
+    /**
+     * 
+     * @param costo_hierro 
+     */
     public void setCosto_hierro(int costo_hierro) {
         this.costo_hierro = costo_hierro;
     }

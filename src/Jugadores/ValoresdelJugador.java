@@ -23,7 +23,9 @@ public class ValoresdelJugador {
         this.jugador1=jugador;
     }
     
-    
+    /**
+     * La Funcion para escoger la raza
+     */
     public void Valores(){
      int j1 = input.nextInt();
         switch (j1){

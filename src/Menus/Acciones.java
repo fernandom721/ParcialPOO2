@@ -360,7 +360,7 @@ public class Acciones {
                         System.out.println(RED_FILL+"ATACANDO LA BASE ENEMIGA!!!"+ANSI_RESET);
                         //DEFENDERSE
                         TropasAtaque1.get(x-1).setHp(TropasAtaque1.get(x-1).getHp()-defensa1);
-                        if(TropasAtaque1.get(x-1).getHp()==0){
+                        if(TropasAtaque1.get(x-1).getHp()<=0){
                             System.out.println("Tu "+ TropasAtaque1.get(x-1).getNombre()+" a sido destruido");
                             TropasAtaque1.remove(x-1);
                         }

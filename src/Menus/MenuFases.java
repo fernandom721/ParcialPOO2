@@ -60,6 +60,7 @@ public class MenuFases {
         Acciones base1 = new Acciones(jugador1, jugador2, Basej1, Basej2, Edificiosj1, TropasAtaque1, Edificiosj2, TropasAtaque2);
         Acciones base2 = new Acciones(jugador2, jugador1, Basej2, Basej1, Edificiosj2, TropasAtaque2, Edificiosj1, TropasAtaque1);
         
+                
 
         //FASES
         do{

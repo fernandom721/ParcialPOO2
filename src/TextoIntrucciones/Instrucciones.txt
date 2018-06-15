@@ -1,0 +1,31 @@
+-----COMO JUGAR-------
+Fernando Martine'z Wolrd es un juego de estrategia 1V1 por turnos
+en el cual todas tus decisiones son importantes para la victoria.
+Al tomar una decision !NO PUEDES RETROCEDER!, asi que ten cuidado al momento de tus decisiones.
+El ganador se decide cuando un jugador destruye la base enemiga.
+Puedes decidir entre cuatro razas para jugar,
+cada una con sus fortalezas y debilidades.
+
+---Raza Humana---
+Vida: Mayor
+Damage: Menor
+Recoleccion de Recursos: Neutro
+Costo de Objetos: Neutro
+---Raza Alien---
+Vida: Menor
+Damage: Mayor
+Recoleccion de Recursos: Neutro
+Costo de Objetos: Neutro
+--- Raza Robot---
+Vida: Neutro
+Damage: Neutro
+Recoleccion de Recursos: Mayor
+Costo de Objetos: Mayor
+---Raza Mutante---
+Vida: Neutro
+Damage: Neutro
+Recoleccion de Recursos: Menor
+Costo de Objetos: Menor
+
+Escoge la que mejor se enfoque a tu estilo de juego
+!!Buena Suerte en el Campo de Batalla!!

@@ -6,6 +6,8 @@
 package Menus;
 
 import java.util.Scanner;
+import Menus.Instrucciones;
+import java.io.IOException;
 /**
  *
  * @author Fernando Martínez
@@ -13,7 +15,9 @@ import java.util.Scanner;
 public class MenuPrincipal {
     int flag =0;
     Scanner input = new Scanner(System.in);
-    public void MenuPrincipal(){
+    Instrucciones a = new Instrucciones();
+    
+    public void MenuPrincipal() throws IOException{
         do{
             System.out.println("-------Fernando Martíne'z World (Deluxe Edition)---------");
             System.out.println("Bienvenido a Fernando Martíne'z World");
@@ -28,9 +32,7 @@ public class MenuPrincipal {
                     inicio.MenuFases();
                     break;
                 case 2:
-                    System.out.println("--------COMO JUGAR--------");
-                    System.out.println("Si para mañana a las 6 haz terminado lo basico, busca como leer archivos de texto");
-                    System.out.println("Sino hacelo a puros sout :v");
+                    a.muestraContenido("C:\\Users\\Fernando Martínez\\Documents\\NetBeansProjects\\ParcialPOO2\\Instrucciones.txt");
                     break;
                 case 3:
                     System.out.println("Gracias por Jugar :)");

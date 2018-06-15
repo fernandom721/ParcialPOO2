@@ -4,13 +4,14 @@
  * and open the template in the editor.
  */
 package Menus;
-import starwars.StarWars;
+import java.util.Scanner;
 /**
  *
  * @author Fernando Martínez
  */
 public class MenuEdificios {
-    
+    public int opcion;
+    Scanner input = new Scanner(System.in);
     public void MenuEdificios(){
         System.out.println("----FABRICA DE EDIFICIOS----");
                     System.out.println("¿Qué Edificio desea Crear?");
@@ -21,8 +22,23 @@ public class MenuEdificios {
                     System.out.println("---Tropas---");
                     System.out.println("4) Campo de Entrenamiento");
                     System.out.println("5) Fábrica de Vehiculos");
-                    System.out.println("---Cuarteles---");
-                    System.out.println("6) Cuartel de Ataque");
-                    System.out.println("7) Cuartel de Defensa");
     }
+    
+    public MenuEdificios(){
+        
+        opcion = input.nextInt();
+    }
+    
+    public MenuEdificios(int opcion) {
+        this.opcion = opcion;
+    }
+
+    public int getOpcion() {
+        return opcion;
+    }
+
+    public void setOpcion(int opcion) {
+        this.opcion = opcion;
+    }
+    
 }

@@ -4,28 +4,28 @@
  * and open the template in the editor.
  */
 package Menus;
+
 import java.util.Scanner;
 
 /**
  *
  * @author Fernando Martínez
  */
-public class MenuTropas {
+public class MenuVehiculos {
     public int opcion;
     Scanner input = new Scanner(System.in);
 
-    public void MenuTropas(){
+    public void MenuVehiculos(){
         System.out.println("¿Qúe Tipo de Tropa deseas Crear?");
-        System.out.println("1) Tropas");
-        System.out.println("2) Escuadron");
-        System.out.println("3) Tropa de Élite");       
+        System.out.println("1) Vehiculo Terrestre");
+        System.out.println("2) Vehiculo Aereo");     
     }
     
-    public MenuTropas(){
+    public MenuVehiculos(){
         opcion = input.nextInt();
     }
     
-    public MenuTropas(int opcion) {
+    public MenuVehiculos(int opcion) {
         this.opcion = opcion;
     }
     

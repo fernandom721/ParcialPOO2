@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package Menus;
-import starwars.StarWars;
+import starwars.FernandoMartinezWorld;
 /**
  *
  * @author Fernando Martínez

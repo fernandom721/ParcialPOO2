@@ -4,22 +4,68 @@
  * and open the template in the editor.
  */
 package Razas;
-import Jugadores.Jugador;
 /**
  *
  * @author Fernando Martínez
  */
 public class RazaHumano implements Raza{
-    private String raza;
-    Jugador jugador1 = new Jugador();
+
     @Override
-    public void Raza() {
-        
-        jugador1.setHp(200);
-        
-        
-        raza="Humana";
-        System.out.println("Tu raza es humano");
+    public String NombreRaza() {
+        return "Humano";
     }
+
+    @Override
+    public int Vidadefault() {
+        return 200;
+    }
+
+    @Override
+    public int Dañodefault() {
+        return 15;
+    }
+
+    @Override
+    public int Hierrodefault() {
+        return 1000;
+    }
+
+    @Override
+    public int Cristalesdefault() {
+        return 500;
+    }
+
+    @Override
+    public int Circuitosdefault() {
+        return 300;
+    }
+
+    @Override
+    public int CostoHierro() {
+        return 750;
+    }
+
+    @Override
+    public int CostoCristales() {
+        return 500;
+    }
+
+    @Override
+    public int CostoCircuitos() {
+        return 300;
+    }
+
+    @Override
+    public int FasesCreando() {
+        return 1;
+    }
+
+    @Override
+    public int FasesAtaque() {
+        return 1;
+    }
+    
+
+
     
 }

@@ -14,28 +14,20 @@ public class Edificios {
     private int hp, fases;
     private int hierro, cristales, circuitos;
     private int costo_hierro, costo_cristales, costo_circuitos;
+    private int nivel;
 
     public Edificios(){}
-    // Constructor De Base
-    public Edificios(String raza, String nombre, int hp, int hierro, int cristales, int circuitos) {
+    // Constructor De Edificios
+    public Edificios(String raza, String nombre, int hp, int hierro, int cristales, int circuitos, int nivel) {
         this.raza = raza;
         this.nombre = nombre;
         this.hp = hp;
         this.hierro = hierro;
         this.cristales = cristales;
         this.circuitos = circuitos;
+        this.nivel = nivel;
     }
     
-    //Constructor de Edificios
-    public Edificios(String raza, String nombre, int hp, int fases, int costo_hierro, int costo_cristales, int costo_circuitos) {
-        this.raza = raza;
-        this.nombre = nombre;
-        this.hp = hp;
-        this.fases = fases;
-        this.costo_hierro = costo_hierro;
-        this.costo_cristales = costo_cristales;
-        this.costo_circuitos = costo_circuitos;
-    }
     
     //Construir Extractor de Recursos
     public Edificios(String raza, String nombre, int hp, int fases, int hierro, int cristales, int circuitos, int costo_hierro, int costo_cristales, int costo_circuitos) {
@@ -51,6 +43,14 @@ public class Edificios {
         this.costo_circuitos = costo_circuitos;
     }
 
+    public int getNivel() {
+        return nivel;
+    }
+
+    public void setNivel(int nivel) {
+        this.nivel = nivel;
+    }
+    
     public int getCosto_hierro() {
         return costo_hierro;
     }

@@ -11,18 +11,45 @@ package Tropas;
  */
 public class Tropas {
     private String raza, nombre;
-    private int hp, damage, costo, fasescrear, fasesataque;
+    private int hp, damage,fasescrear, fasesataque;
+    private int costo_hierro, costo_cristales, costo_circuitos;
     
     public Tropas(){}
 
-    public Tropas(String raza, String nombre, int hp, int damage, int costo, int fasescrear, int fasesataque) {
+    public Tropas(String raza, String nombre, int hp, int damage, int fasescrear, int fasesataque, int costo_hierro, int costo_cristales, int costo_circuitos) {
         this.raza = raza;
         this.nombre = nombre;
         this.hp = hp;
         this.damage = damage;
-        this.costo = costo;
         this.fasescrear = fasescrear;
         this.fasesataque = fasesataque;
+        this.costo_hierro = costo_hierro;
+        this.costo_cristales = costo_cristales;
+        this.costo_circuitos = costo_circuitos;
+    }
+
+    public int getCosto_hierro() {
+        return costo_hierro;
+    }
+
+    public void setCosto_hierro(int costo_hierro) {
+        this.costo_hierro = costo_hierro;
+    }
+
+    public int getCosto_cristales() {
+        return costo_cristales;
+    }
+
+    public void setCosto_cristales(int costo_cristales) {
+        this.costo_cristales = costo_cristales;
+    }
+
+    public int getCosto_circuitos() {
+        return costo_circuitos;
+    }
+
+    public void setCosto_circuitos(int costo_circuitos) {
+        this.costo_circuitos = costo_circuitos;
     }
 
     public String getRaza() {
@@ -55,14 +82,6 @@ public class Tropas {
 
     public void setDamage(int damage) {
         this.damage = damage;
-    }
-
-    public int getCosto() {
-        return costo;
-    }
-
-    public void setCosto(int costo) {
-        this.costo = costo;
     }
 
     public int getFasescrear() {

@@ -10,5 +10,15 @@ package Razas;
  * @author Fernando Martínez
  */
 public interface Raza {
-    void Raza();
+    String NombreRaza();
+    int Vidadefault();
+    int Dañodefault();
+    int Hierrodefault();
+    int Cristalesdefault();
+    int Circuitosdefault();
+    int CostoHierro();
+    int CostoCristales();
+    int CostoCircuitos();
+    int FasesCreando();
+    int FasesAtaque();
 }

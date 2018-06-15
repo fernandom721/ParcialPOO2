@@ -5,13 +5,13 @@
  */
 package starwars;
 
-import Menus.MenuFases;
+import Menus.MenuPrincipal;
 
 /**
  *
  * @author Fernando Martínez
  */
-public class StarWars {
+public class FernandoMartinezWorld {
     static AbstractFactory factory;
     
     
@@ -20,8 +20,8 @@ public class StarWars {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        MenuFases inicio = new MenuFases();
-        inicio.MenuFases();
+        MenuPrincipal start = new MenuPrincipal();
+        start.MenuPrincipal();
         
     }
 }

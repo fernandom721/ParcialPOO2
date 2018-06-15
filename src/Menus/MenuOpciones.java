@@ -12,8 +12,7 @@ import java.util.Scanner;
 public class MenuOpciones {
     public int opcion;
     Scanner input = new Scanner(System.in);
-    
-    public MenuOpciones(){
+    public void MenuOpciones(){
         System.out.println("¿Qué Desea Hacer?");
         System.out.println("1) Crear Edificio");
         System.out.println("2)Crear Tropa");
@@ -21,6 +20,9 @@ public class MenuOpciones {
         System.out.println("4) Atacar");
         System.out.println("5) Mejorar Base");
         System.out.println("6) Saltar");
+    }
+    public MenuOpciones(){
+        
         opcion = input.nextInt();
     }
 
